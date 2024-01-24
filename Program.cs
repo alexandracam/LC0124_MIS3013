@@ -3,34 +3,55 @@
 // Alexandra Camarena
 // 113568154
 
-// define variable
-// int double bool char
-// int : 1 2 3 -1 0 
-// double : 12.6
-// bool : true false
-// char : one single character
-// datatype varaible_name;
-// 1. letter number _
-// 2. start with letter or _ (could not start with a number)
-// int double bool char: simple datatype, bot expensive resources in the computer
-int age1;// datatype is int, angel is the varaible
-int age2;//
+// comments
+Console.WriteLine("Second lecture");
+// Writeline: function
+// writeline() : function call
 
-double weight1;
+// statement
+
+// 1. RAM memory
+// 2. CPU 
+
+// datatype
+// datatype_name variable_name;
+// resources:
+// 1. simple, not expensive,: int double bool char
+// 2. complex, expensive, 
+
+// 1. letter number _ 
+// 2. start with letter _ (could not start with nunber)
+int age1;// 
+// age1 varaible name;  instance object
+// int is the roomtype
+// age1 is int, simple, not expensive
+int age2;// int simple not expensive
+
+double weight1;// double simple, not expensive
 double weight2;
 
-bool b1;
-bool b2;
+// int 4 Byte 
+// double 8 Bytes
+bool b1;// b1 bool simple not expensive
+bool b2;// true false 1 bit = 1/8 Byte
 
-char c1;
-char c2;
-// to put values into the space, we use assingment operation
-// = assignment operator, very very important concept in prgramming
-// variable_name = expression;
+char c1;// c1 char simple not expensive 2 Byte
+char c2;// 
+
+// hard topics
+// 1. assignments
+// 2. functions
+// 3. simple vs complex
+
+// assignment
+// = assignment operator
 age1 = 20;
-age2 = 2 * 15;
-
-weight1 = age1 * 10;
-
+//assignment statement 
+// 
+age1 = 22;// 
+//assignment
+// 
+weight1 = 30 * 2 + 20.0 / 4;// assignment
+// expression
 Console.WriteLine(weight1);
-Console.WriteLine(age2);
+
